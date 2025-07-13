@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shamim Hossain | Portfolio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ScrollReveal for animation -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">Shamim</div>
+    <ul class="nav-links">
+      <li><a href="#about" class="active">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h1>Hi, I'm Shamim Hossain</h1>
+    <p>
+      Passionate Web Developer and student at Shahjalal University of Science and Technology.
+      Skilled in HTML, CSS, JavaScript, C, C++, Java, Python, and SQL.
+    </p>
+    <img src="shamim.jpg" alt="Shamim Hossain" />
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <i class="fab fa-html5"></i> HTML
+        <div class="skill-progress"><div style="width: 90%;"></div></div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-css3-alt"></i> CSS
+        <div class="skill-progress"><div style="width: 85%;"></div></div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-js"></i> JavaScript
+        <div class="skill-progress"><div style="width: 75%;"></div></div>
+      </div>
+      <div class="skill">
+        <i class="fas fa-code"></i> C
+        <div class="skill-progress"><div style="width: 80%;"></div></div>
+      </div>
+      <div class="skill">
+        <i class="fas fa-code"></i> C++
+        <div class="skill-progress"><div style="width: 70%;"></div></div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-java"></i> Java
+        <div class="skill-progress"><div style="width: 65%;"></div></div>
+      </div>
+      <div class="skill">
+        <i class="fab fa-python"></i> Python
+        <div class="skill-progress"><div style="width: 60%;"></div></div>
+      </div>
+      <div class="skill">
+        <i class="fas fa-database"></i> SQL
+        <div class="skill-progress"><div style="width: 50%;"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website to showcase my skills and projects.</p>
+      </div>
+      <div class="project">
+        <h3>Typing Test App</h3>
+        <p>A simple web app to measure typing speed and accuracy.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements -->
+  <section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <ul>
+      <li>🏆 Programming contest winner 2023</li>
+      <li>📜 Completed Full Stack Developer Course</li>
+      <li>💻 Open source contributor in XYZ project</li>
+      <li>🎓 Dean’s list at SUST 2024</li>
+    </ul>
+    <img src="images/achievement.jpg" alt="Achievements Image" />
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <div class="education-list">
+      <div class="education-item">
+        <h3>Shahjalal University of Science and Technology</h3>
+        <p>Bachelor of Science in Computer Science & Engineering (CSE)</p>
+        <p>2021 - Present</p>
+      </div>
+      <div class="education-item">
+        <h3>XYZ High School</h3>
+        <p>Higher Secondary Certificate (HSC)</p>
+        <p>2018 - 2020</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="section">
+    <h2>Testimonials</h2>
+    <div class="testimonials-carousel">
+      <div class="testimonial-item active">
+        <p>"Shamim is a dedicated developer with great skills."</p>
+        <h4>- John Doe</h4>
+      </div>
+      <div class="testimonial-item">
+        <p>"Excellent work on the recent project, highly recommended."</p>
+        <h4>- Jane Smith</h4>
+      </div>
+      <div class="testimonial-item">
+        <p>"Professional, reliable, and fast communicator."</p>
+        <h4>- Mike Johnson</h4>
+      </div>
+      <button class="prev-btn">&#10094;</button>
+      <button class="next-btn">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Blog / Articles -->
+  <section id="blog" class="section">
+    <h2>Blog / Articles</h2>
+    <div class="blog-list">
+      <article>
+        <h3><a href="#">How to Learn JavaScript Effectively</a></h3>
+        <p>Tips and tricks to become a better JavaScript developer.</p>
+      </article>
+      <article>
+        <h3><a href="#">Understanding CSS Flexbox</a></h3>
+        <p>A beginner-friendly guide to mastering Flexbox layout.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <form id="contact-form" onsubmit="return false;">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a>
+      <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/Shamimhossain2021331071" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Shamim Hossain</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
